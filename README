@@ -53,7 +53,11 @@ Now when we have everything for coding, you can fork or download content from th
 To run all correctly follow these instructions:
   First of all, start mongo database server by going on mongodb.exe. We just make our computer to 
 act as database server. He listen for requests on localhost on port 27017 and responds to them. 
-He only handles data in the database, does not serve for any conversion.
+He only handles data in the database, does not serve for any conversion. 
+  For this purpose we have server/db.js file which we run from the command line. Since this is a technology 
+that is usually executed on the client side, we need a special mechanism that will enable execution 
+on server side. Therefore, we have node.exe which will launch this script and thus build a server that 
+will communicate directly with user's interface on one side and on the other with database server.
 
 
 
