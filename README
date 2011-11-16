@@ -17,14 +17,12 @@ Further, you can see a brief description about
 to start up this interface and be capable to move on.
 
 First of all, it is assumed that you have github account and GitBash installed on pc.
-If you don't have jet, follow instructions on https://github.com/plans - automatic!
-[GitHub](https://github.com/plans) and then back.
+If you don't have jet, follow instructions on https://github.com/plansand then back.
 
 Step 1. Downloading required programs
 
 NODE
-First we need node.js from http://nodejs.org/#download - automatic!
-[GitHub](http://nodejs.org/#download). 
+First we need node.js from http://nodejs.org/#download. 
 There you can find under section "Other release files (like .exe and .pdb)" node.exe. 
 Download wherever on local mashine.
 It's good to know that you can adjust your computer to recognize command 'node' from any 
@@ -34,8 +32,7 @@ and there you can edit variable 'Path' and just attach on start path to the file
 If you download file on D:/Node/node.exe, you will write out D:\Node;. Don't forget semicolon.
 
 MongoDB
-From http://www.mongodb.org/display/DOCS/Quickstart+Windows - automatic!
-[GitHub](http:///www.mongodb.org/display/DOCS/Quickstart+Windows) download appropriate version for
+From http://www.mongodb.org/display/DOCS/Quickstart+Windows download appropriate version for
 your system (32b/64b). There is no special installation, just unzip files in some folder.
 You will find inside folder 'bin' files mongod.exe and mongo.exe. First of them is apllication 
 which represents mongoDB server on localhost with port 27017. The other one is administrative shell 
