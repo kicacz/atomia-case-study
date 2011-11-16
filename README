@@ -19,7 +19,7 @@ to start up this interface and be capable to move on.
 First of all, it is assumed that you have github account and GitBash installed on pc.
 If you don't have jet, follow instructions on https://github.com/plansand then back.
 
-Step 1. Downloading required programs
+Step 1. Downloading and installing required programs
 
 NODE
 First we need node.js from http://nodejs.org/#download. 
@@ -42,7 +42,14 @@ node.js driver for MongoDB - node-mongodb-native
 This is usually done with Node Package Manager - npm, but it can't be installed on Windows.
 At least I have not found. Instead, you can pull content from https://github.com/christkv/node-mongodb-native 
 via GitBush or go direct to this link and download zip package. 
+It's necessary that documents from this package are stored relatively to the server .js file. 
+As you can see in this respository, there is 'server' folder and within it is db.js document 
+that represents server apllication, intermediary between our web interface and database server.
+In this folder you have to make one more called 'node_modules' and within another called 'mongodb'.
+Now unzip downloaded package in this directory and you will be able to connect to mongoDB from db.js. 
 
+Step 2. Understanding the example in this respository
+Now when we have everything for coding, you can fork or just download content from As I mentioned
 
 
 
