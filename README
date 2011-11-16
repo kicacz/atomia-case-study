@@ -52,8 +52,8 @@ Step 2. Understanding the example
 Now when we have everything for coding, you can fork or download content from this respository. 
 To run all correctly follow these instructions:
   First of all, start mongo database server by going on mongodb.exe. We just make our computer to 
-act as database server. He listen for requests on port 27017 and responds to them. He only handles data 
-in the database, not for any conversion.
+act as database server. He listen for requests on localhost on port 27017 and responds to them. 
+He only handles data in the database, does not serve for any conversion.
 
 
 
