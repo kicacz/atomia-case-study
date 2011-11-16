@@ -31,4 +31,13 @@ Control Panel -> System -> Advanced system settings - > Environment variables ->
 and there you can edit variable 'Path' and just attach on start path to the file node.exe.
 If you download file on D:/Node/node.exe, you will write out D:\Node;. Don't forget semicolon.
 
+MongoDB
+From http://www.mongodb.org/display/DOCS/Quickstart+Windows download appropriate version for
+your system (32b/64b). There is no special installation, just unzip files in some folder.
+You will find inside folder 'bin' files mongod.exe and mongo.exe. First of them is apllication 
+which represents mongoDB server on localhost with port 27017. The other one is administrative shell 
+that connects on mongoDB server which allows user to manage data through a series of commands. 
+
+
+
 
