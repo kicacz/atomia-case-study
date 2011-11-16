@@ -1,6 +1,6 @@
 Recently, document will have .md extension...
 
-Student Case Study about node.js + mongoDB by international company Atomia.
+This is Student Case Study about node.js + mongoDB by international company Atomia.
 Here you can find simple restful/JSON web interface with following features:
 - data representation in tree form with expansion/collapse option
 - list all data in one collection
@@ -11,7 +11,9 @@ Here you can find simple restful/JSON web interface with following features:
 All request from client to server are performed using jQuery.ajax.
 On server side, we need NODE executable file, MongoDB instalation and node.js driver for MongoDB.
 
-Further, you can see a brief description about:
+Further, you can see a brief description about
 - what you need to download
-- how to install mongoDB server on local mashine 
-- how to run system 
+- how to install required programs on local mashine 
+to start up this interface and be capable to move on.
+
+First of all, it is assumed that you have github account and gitbash installed on pc.
