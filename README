@@ -58,8 +58,12 @@ He only handles data in the database, does not serve for any conversion.
 that is usually executed on the client side, we need a special mechanism that will enable execution 
 on server side. Therefore, we have node.exe which will launch this script and thus build a server that 
 will communicate directly with user's interface on one side and on the other with database server.
-To do this, you need to find mentioned folder through command line and type 'node db.js'. If you can not type,
-then everything is ok.
+To do this, you need to find mentioned folder through command line and type 'node db.js'. If you can not type
+after this command then everything is ok. The same goes for the other one, mongod.exe.
+  Now the only thing that's left is to open client/interface.html. There you will see what has been described 
+at the top of the document and if everything is ok you can try how it works. 
+
+Since the problem is only done a couple of days
 
 
 
