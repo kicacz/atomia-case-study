@@ -8,12 +8,27 @@ Here you can find simple restful/JSON web interface with following features:
 - add new JSON object with arbitrary number of attributes
 - remove data by objectId
 
-All request from client to server are performed using jQuery.ajax.
+All request from client to server are performed using ajax.
 On server side, we need NODE executable file, MongoDB instalation and node.js driver for MongoDB.
 
 Further, you can see a brief description about
 - what you need to download
-- how to install required programs on local mashine 
+- how to install required programs on local mashine with WINDOWS 7 operating system
 to start up this interface and be capable to move on.
 
-First of all, it is assumed that you have github account and gitbash installed on pc.
+First of all, it is assumed that you have github account and GitBash installed on pc.
+If you don't have jet, follow instructions on https://github.com/plans and then back.
+
+Step 1. Downloading required programs
+
+NODE
+First we need node.js from http://nodejs.org/#download. 
+There you can find under section "Other release files (like .exe and .pdb)" node.exe. 
+Download wherever on local mashine.
+It's good to know that you can adjust your computer to recognize command 'node' from any 
+directory where you can find through win commander. For this option, follow the guidelines
+Control Panel -> System -> Advanced system settings - > Environment variables -> 
+and there you can edit variable 'Path' and just attach on start path to the file node.exe.
+If you download file on D:/Node/node.exe, you will write out D:\Node;. Don't forget semicolon.
+
+
