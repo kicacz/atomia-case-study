@@ -63,7 +63,8 @@ after this command then everything is ok. The same goes for the other one, mongo
   Now the only thing that's left is to open client/interface.html. There you will see what has been described 
 at the top of the document and if everything is ok you can try how it works. 
 
-Since the problem is only done a couple of days
+Since the problem is only done a couple of days, the structure of documents is not at a high level. 
+I will try to fix it anytime soon.
 
 
 
