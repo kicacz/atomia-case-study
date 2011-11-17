@@ -43,7 +43,7 @@ Node.js driver for MongoDB - node-mongodb-native
 This is usually done with Node Package Manager - npm, but it can't be installed on Windows.
 At least I have not found. Instead, you can pull content from 
 https://github.com/christkv/node-mongodb-native via GitBush or go direct to this link and download 
-zip package. It's necessary that documents from this package are stored relatively to the server .js 
+zip package. It's necessary that documents from this package are stored relatively to the server db.js 
 file. As you can see in this respository, there is 'server' folder and within it is db.js document 
 that represents server apllication, intermediary between our web interface and database server.
 In this folder you have to make one more called 'node_modules' and within another called 'mongodb'.
