@@ -60,7 +60,10 @@ will communicate directly with user's interface on one side and on the other wit
 To do this, you need to find mentioned folder through command line and type 'node db.js'. If you can not type
 after this command then everything is ok. The same goes for the other one, mongod.exe.
   Now the only thing that's left is to open client/interface.html. There you will see what has been described 
-at the top of the document and if everything is ok you can try how it works. 
+at the top of the document and if everything is configured properly you can try how it works . 
+Important fact is that the server is always looking for the data collection 'collection' on the database server 
+which will initially be empty so you have to enter data with option 'post'. 
+You can enter data with a different number of parameters.
 
 Since the problem is only done a couple of days, the structure of documents is not at a high level. 
 I will try to fix it anytime soon.
