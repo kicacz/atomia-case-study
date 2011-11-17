@@ -104,7 +104,7 @@ jQuery(document).ready(function($){
 		if (type === 'POST')
 		{
 			req = new XMLHttpRequest();
-			req.open(type, 'http://127.0.0.1:8080/', true);
+			req.open(type, 'http://127.0.0.1:8181/', true);
 			req.send(JSON.stringify( data ));
 			req.onreadystatechange = function () {
 				if (req.readyState != 4) return;
@@ -118,7 +118,7 @@ jQuery(document).ready(function($){
 		if (type === 'GET')
 		{
 			$.ajax({
-				url: 'http://127.0.0.1:8080/',
+				url: 'http://127.0.0.1:8181/',
 				dataType: "json",
 				data: "data=" + JSON.stringify( data ),
 				jsonpCallback: '_test',

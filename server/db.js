@@ -113,10 +113,4 @@ http.createServer(function (req, res) {
 		});
 	}
 	
-	if ( req.method === 'PUT' ) {
-		if (obj.delete != null)
-			getCollection(res, obj.objectId);
-	}
-	
-	
-}).listen(8080, "127.0.0.1");   
+}).listen(8181, "127.0.0.1");   
