@@ -1,0 +1,91 @@
+html
+{
+	height: 100%; 
+	overflow: hidden; 
+	margin: 0; 
+	padding: 0;
+}
+body
+{
+	height: 100%; 
+	overflow: auto;	
+	margin: 0; 
+	padding: 0; 
+	text-align: center;	
+}
+#floater	
+{
+	height: 50%; 
+	margin-bottom: -270px;
+	min-height: 270px;
+}
+#wrapper
+{
+	margin: auto; 
+	width: 920px;
+	height: 500px;
+	padding: 20px;
+	position: relative;
+}
+#buttons
+{
+	width: 880px; 
+	height: 30px; 
+	padding: 20px; 
+	margin-bottom: 10px;
+	background-color: #1A1A1A;
+	text-align: left;
+	overflow: hidden;
+}
+#content
+{
+	width: 880px; 
+	height: 380px; 
+	padding: 20px;
+	background-color: #1A1A1A;
+	color: #FFFFFF;
+	overflow: auto;
+}
+table
+{
+	width: 100%;
+	border-collapse: collapse;
+	line-height: 120%;
+}
+td
+{
+	width: 50%;
+	border-top: 1px solid #FFFFFF;
+}
+input[type=button]
+{
+	height: 30px;
+	width: 78px;
+	cursor: pointer;
+	cursor: hand;
+}
+input[type=text]
+{
+	margin: 10px 20px 0 6px;
+	height: 20px;
+	width: 180px;
+}
+p
+{
+	text-align: left;
+}
+label
+{
+	min-width: 78px;
+	display: inline-block;
+	color: #FFFFFF;
+	text-align: center;
+}
+.addin
+{
+	display: none;
+}
+li
+{
+	text-align: left;
+}

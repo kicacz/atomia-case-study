@@ -58,7 +58,7 @@ var deleteData = function(ws, id) {
 			}
 			catch (e)
 			{
-				ws.end('_testcb(\'\')');
+				ws.end('_test(\'\')');
 				db.close();
 			}
 	    });
@@ -75,7 +75,7 @@ var insertData = function(ws, data) {
 				  if (err && err.message.indexOf('E11000 ') !== -1) {
 					// this _id was already inserted in the database
 				  }
-				  ws.end('_testcb(\'\')');
+				  ws.end('_test(\'\')');
 			});
 	    });
 	});
