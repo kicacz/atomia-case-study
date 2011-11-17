@@ -40,7 +40,8 @@ that connects on mongoDB server which allows user to manage data through a serie
 
 node.js driver for MongoDB - node-mongodb-native
 This is usually done with Node Package Manager - npm, but it can't be installed on Windows.
-At least I have not found. Instead, you can pull content from https://github.com/christkv/node-mongodb-native via GitBush or go direct to this link and download zip package. 
+At least I have not found. Instead, you can pull content from 
+https://github.com/christkv/node-mongodb-native via GitBush or go direct to this link and download zip package. 
 It's necessary that documents from this package are stored relatively to the server .js file. 
 As you can see in this respository, there is 'server' folder and within it is db.js document 
 that represents server apllication, intermediary between our web interface and database server.
@@ -61,8 +62,8 @@ To do this, you need to find mentioned folder through command line and type 'nod
 after this command then everything is ok. The same goes for the other one, mongod.exe.
   Now the only thing that's left is to open client/interface.html. There you will see what has been described 
 at the top of the document and if everything is configured properly you can try how it works . 
-Important fact is that the server is always looking for the data collection 'collection' on the database server 
-which will initially be empty so you have to enter data with option 'post'. 
+Important fact is that the server is always looking for the data collection 'collection' on the 
+database server which will initially be empty so you have to enter data with option 'post'. 
 You can enter data with a different number of parameters.
 
 Since the problem is only done a couple of days, the structure of documents is not at a high level. 
