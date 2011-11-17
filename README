@@ -19,6 +19,7 @@ to start up this interface and be capable to move on.
 First of all, it is assumed that you have github account and GitBash installed on pc.
 If you don't have jet, follow instructions on https://github.com/plansand then back.
 
+
 Step 1. Downloading and installing required programs
 
 NODE
@@ -48,7 +49,9 @@ that represents server apllication, intermediary between our web interface and d
 In this folder you have to make one more called 'node_modules' and within another called 'mongodb'.
 Now unzip downloaded package in this directory and you will be able to connect to mongoDB from db.js. 
 
+
 Step 2. Understanding the example
+
 Now when we have everything for coding, you can fork or download content from this respository. 
 To run all correctly follow these instructions:
   First of all, start mongo database server by going on mongodb.exe. We just make our computer to 
