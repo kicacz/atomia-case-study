@@ -1,0 +1,77 @@
+Soon, document will have .md extension...
+
+This is Student Case Study about node.js + mongoDB by international company Atomia.
+Here you can find simple restful/JSON web interface with following features:
+- data representation in tree form with expansion/collapse option
+- list all data in one collection
+- find data by objectId
+- add new JSON object with arbitrary number of attributes
+- remove data by objectId
+
+All request from client to server are performed using ajax.
+On server side, we need NODE executable file, MongoDB instalation and node.js driver for MongoDB.
+
+Further, you can see a brief description about
+- what you need to download
+- how to install required programs on local mashine with WINDOWS 7 operating system
+to start up this interface and be capable to move on.
+
+First of all, it is assumed that you have github account and GitBash installed on pc.
+If you don't have jet, follow instructions on https://github.com/plansand then back.
+
+
+Step 1. Downloading and installing required programs
+
+NODE
+First we need node.js from http://nodejs.org/#download. 
+There you can find under section "Other release files (like .exe and .pdb)" node.exe. 
+Download wherever on local mashine.
+It's good to know that you can adjust your computer to recognize command 'node' from any 
+directory where you can find through win commander. For this option, follow the guidelines
+Control Panel -> System -> Advanced system settings - > Environment variables -> 
+and there you can edit variable 'Path' and just attach on start path to the file node.exe.
+If you download file on D:/Node/node.exe, you will write out D:\Node;. Don't forget semicolon.
+
+MongoDB
+From http://www.mongodb.org/display/DOCS/Quickstart+Windows download appropriate version for
+your system (32b/64b). There is no special installation, just unzip files in some folder.
+You will find inside folder 'bin' files mongod.exe and mongo.exe. First of them is apllication 
+which represents mongoDB server on localhost with port 27017. The other one is administrative shell 
+that connects on mongoDB server which allows user to manage data through a series of commands. 
+
+node.js driver for MongoDB - node-mongodb-native
+This is usually done with Node Package Manager - npm, but it can't be installed on Windows.
+At least I have not found. Instead, you can pull content from 
+https://github.com/christkv/node-mongodb-native via GitBush or go direct to this link and download 
+zip package. It's necessary that documents from this package are stored relatively to the server .js 
+file. As you can see in this respository, there is 'server' folder and within it is db.js document 
+that represents server apllication, intermediary between our web interface and database server.
+In this folder you have to make one more called 'node_modules' and within another called 'mongodb'.
+Now unzip downloaded package in this directory and you will be able to connect to mongoDB from db.js. 
+
+
+Step 2. Understanding the example
+
+Now when we have everything for coding, you can fork or download content from this respository. 
+To run all correctly follow these instructions:
+  First of all, start mongo database server by going on mongodb.exe. We just make our computer to 
+act as database server. He listen for requests on localhost on port 27017 and responds to them. 
+He only handles data in the database, does not serve for any conversion. 
+  For this purpose we have server/db.js file which we run from the command line. Since this is a 
+technology that is usually executed on the client side, we need a special mechanism that will enable 
+execution on server side. We have node.exe which will launch this script and thus build a server 
+that will communicate directly with user's interface on one side and on the other with database server.
+To do this, you need to find mentioned folder through command line and type 'node db.js'. If you can 
+not type after this command then everything is ok. The same goes for the other one, mongod.exe.
+  Now the only thing that's left is to open client/interface.html. There you will see what has been 
+described at the top of the document and if everything is configured properly you can try how it works . 
+Important fact is that the server is always looking for the data collection 'collection' on the 
+database server which will initially be empty so you have to enter data with option 'post'. 
+You can enter data with a different number of parameters.
+
+Since the problem is only done a couple of days, the structure of documents is not at a high level. 
+I will try to fix it anytime soon.
+
+
+
+
