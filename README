@@ -64,13 +64,16 @@ that will communicate directly with user's interface on one side and on the othe
 To do this, you need to find mentioned folder through command line and type 'node db.js'. If you can 
 not type after this command then everything is ok. The same goes for the other one, mongod.exe.
   Now the only thing that's left is to open client/interface.html. There you will see what has been 
-described at the top of the document and if everything is configured properly you can try how it works . 
+described at the top of the document and if everything is configured properly you can try how it works. 
 Important fact is that the server is always looking for the data collection 'collection' on the 
 database server which will initially be empty so you have to enter data with option 'post'. 
 You can enter data with a different number of parameters.
 
 Since the problem is only done a couple of days, the structure of documents is not at a high level. 
 I will try to fix it anytime soon.  <--  FIXED
+Documents are divided in two groups (server & client) according to what the end user can see.
+If you want to configure everything to work on the server on the Internet, you have to copy all these 
+documents to server and do a further adjustment. The client only need browser.
 
 
 
