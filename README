@@ -36,6 +36,8 @@ your system (32b/64b). There is no special installation, just unzip files in som
 You will find inside folder 'bin' files mongod.exe and mongo.exe. First of them is apllication 
 which represents mongoDB server on localhost with port 27017. The other one is administrative shell 
 that connects on mongoDB server which allows user to manage data through a series of commands. 
+You have to create folder with name "data" in partition C and inside that folder another one with 
+name "db". Now you have path C:\data\db which is necessary in order to function mongoDB.
 
 Node.js driver for MongoDB - node-mongodb-native
 This is usually done with Node Package Manager - npm, but it can't be installed on Windows.
